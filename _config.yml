@@ -112,18 +112,18 @@ author:
       url: "https://github.com/argent1024"
 
 # Site Footer
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/argent1024"
+# footer:
+#   links:
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/argent1024"
 
-    # - label: "GitLab"
-    #   icon: "fab fa-fw fa-gitlab"
-    #   # url:
-    # - label: "Bitbucket"
-    #   icon: "fab fa-fw fa-bitbucket"
-    #   # url:
+#     # - label: "GitLab"
+#     #   icon: "fab fa-fw fa-gitlab"
+#     #   # url:
+#     # - label: "Bitbucket"
+#     #   icon: "fab fa-fw fa-bitbucket"
+#     #   # url:
 
 
 # Reading Files
