@@ -1,5 +1,5 @@
 ---
-permalink: /project/
+permalink: /research/
 author_profile: true
 layout: single
 
