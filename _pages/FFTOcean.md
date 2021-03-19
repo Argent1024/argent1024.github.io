@@ -1,7 +1,7 @@
 ---
 permalink: /fftocean/
 author_profile: true
-layout: posts
+layout: splash
 ---
 
 # Simulating Ocean water
@@ -49,7 +49,6 @@ There are four parts in the rendering:
 The base color is for water without any special effects. It's is for an approximation of deep water's color.
 ### Reflection
 For the reflection of the ocean, I used a reflection map to include the reflection of the sky and a specular hight the same as the normal Phong shading.
-
 ### Scattering
 The scattering effect is the most important part for water rendering. In order to make the ocean looks good, we need to approximate the scattering effect.
 
