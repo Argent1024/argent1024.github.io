@@ -1,22 +1,29 @@
-﻿---
-permalink: /FFTOcean/
+---
+permalink: /fftocean/
 author_profile: true
-layout: single
-
+layout: posts
 ---
 
 # Simulating Ocean water
+[video](/assets/files/fftocean.mp4)
+
 ### Model of waves
 In the FFT-based model, the ocean's height at some position $x$ is viewed as the sum of sin & cos wave functions with some amplitudes and different wave length $k$ here :
+
 $$h(x,t) = \sum_{k}\tilde h(k,t)exp(ik \cdot x)$$
+
 where `t` is the time and $k = (2 \pi n / L_x, 2 \pi m / L_y), x = (nL_x/N, mL_z/M)$. $M,N$ are the resolution of the grid, $L_x, L_y$ are the physical size (patch size) of the ocean. 
 
 The key idea in this model is that statistical analysis showed that the wave amplitude $\tilde h(k, t)$ have a close releationship with some spatial specturms:
+
 $$P_h(k) = \big \langle |\tilde h^*(k, t)|^2  \big \rangle$$
 
 
+
 A common used spectrum is called the Phillips spectrum:
+
 $$P_h(k) = A\frac{exp(-k^2L^2)}{k^4}|Normalize(k) \cdot \omega| ,$$
+
 where $L = V^2 / g$, the largest possible waves generate by a wind with speed $V$. And $g$ is the gravitational constant, $w$ is the direction of the wind.
 
 We can also calculate the normal using the height function, and it will also be in a form can be calculated using FFT.
@@ -58,22 +65,16 @@ I also used a sphere with an hdr texture I found online for the reflection mappi
 # Reference 
 Introduction to algorithms, 3rd edition
 
-Simulating ocean water 
-http://evasion.imag.fr/~Fabrice.Neyret/images/fluids-nuages/waves/Jonathan/articlesCG/waterslides2001.pdf
+[Simulating ocean water](http://evasion.imag.fr/~Fabrice.Neyret/images/fluids-nuages/waves/Jonathan/articlesCG/waterslides2001.pdf)
 
-Nvidia's talk about FFT ocean
-developer.download.nvidia.com/assets/gamedev/files/sdk/11/OceanCS_Slides.pdf
+[Nvidia's talk about FFT ocean](developer.download.nvidia.com/assets/gamedev/files/sdk/11/OceanCS_Slides.pdf)
 
-The Technical Art of Sea of Thieves
-https://dl.acm.org/doi/10.1145/3214745.3214820
+[The Technical Art of Sea of Thieves](https://dl.acm.org/doi/10.1145/3214745.3214820)
 
-Water Technology of Uncharted
-https://www.gdcvault.com/play/1015309/Water-Technology-of
+[Water Technology of Uncharted](https://www.gdcvault.com/play/1015309/Water-Technology-of)
 
-Water rendering in Crest
-http://advances.realtimerendering.com/s2019/index.htm
+[Water rendering in Crest](http://advances.realtimerendering.com/s2019/index.htm)
 
-Summary of realistic water rendering and simulation
-https://zhuanlan.zhihu.com/p/95917609
+[Summary of realistic water rendering and simulation](https://zhuanlan.zhihu.com/p/95917609)
 
 

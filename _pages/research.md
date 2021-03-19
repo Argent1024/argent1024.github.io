@@ -1,6 +1,8 @@
 ---
 permalink: /research/
-author_profile: true
-layout: single
+author_profile: false
+layout: posts
 
 ---
+
+
