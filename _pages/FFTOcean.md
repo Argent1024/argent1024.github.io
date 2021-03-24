@@ -5,7 +5,10 @@ layout: splash
 ---
 
 # Simulating Ocean water
-[video](/assets/files/fftocean.mp4)
+<video width="640" height="640" controls>
+  <source src="/assets/files/fftocean.mp4" type="video/mp4">
+</video>
+
 
 ### Model of waves
 In the FFT-based model, the ocean's height at some position $x$ is viewed as the sum of sin & cos wave functions with some amplitudes and different wave length $k$ here :
