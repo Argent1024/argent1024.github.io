@@ -1,28 +1,31 @@
 ---
 permalink: /projects/
 author_profile: true
-layout: posts
+layout: splash
 
-gallery1:
-    -   url: https://github.com/Argent1024/ImageStyleTransfer/blob/master/ImageStyleTransfer.ipynb
-        image_path: /assets/files/img_style_transfer/content.jpg
-        alt: "Content"
-        title: "Image Style Transfer"
+# gallery1:
+#     -   url: /assets/files/img_style_transfer/content.jpg
+#         image_path: /assets/files/img_style_transfer/content.jpg
+#         alt: "Content"
+#         title: "Image Style Transfer"
         
-    -   url: https://github.com/Argent1024/ImageStyleTransfer/blob/master/ImageStyleTransfer.ipynb
-        image_path: /assets/files/img_style_transfer/style.jpg
-        alt: "Style"
-        title: "Image Style Transfer"
+#     -   url: /assets/files/img_style_transfer/style.jpg
+#         image_path: /assets/files/img_style_transfer/style.jpg
+#         alt: "Style"
+#         title: "Image Style Transfer"
 
-    -   url: https://github.com/Argent1024/ImageStyleTransfer/blob/master/ImageStyleTransfer.ipynb
-        image_path: /assets/files/img_style_transfer/result.png
-        alt: "Generated"
-        title: "Image Style Transfer"
+#     -   url: /assets/files/img_style_transfer/result.png
+#         image_path: /assets/files/img_style_transfer/result.png
+#         alt: "Generated"
+#         title: "Image Style Transfer"
 ---
+# Projects
 
-## Image Style Transfer
-{% include gallery id="gallery1"%}
+### [Image Based Lighting](/projects/img_light)
+<iframe width="480" height="360" src="/assets/files/imgBasedLighting.mp4" frameborder="0" allowfullscreen></iframe>
 
-[FFT Ocean Simulation](/projects/fftocean) \\
-[Image based lighting](/projects/img_light) \\
-[Image Style Transfer](https://github.com/Argent1024/ImageStyleTransfer/blob/master/ImageStyleTransfer.ipynb)
+### [FFT Ocean Simulation](/projects/fftocean)
+<iframe width="360" height="360" src="/assets/files/fftocean.mp4" frameborder="0" allowfullscreen></iframe>
+
+### [Image Style Transfer](https://github.com/Argent1024/ImageStyleTransfer/blob/master/ImageStyleTransfer.ipynb)
+[![Image Style Transfer](/assets/files/img_style_transfer/image_style_transfer.png)](https://github.com/Argent1024/ImageStyleTransfer/blob/master/ImageStyleTransfer.ipynb)
