@@ -1,5 +1,5 @@
 ---
-permalink: /fftocean/
+permalink: /projects/fftocean/
 author_profile: true
 layout: splash
 ---

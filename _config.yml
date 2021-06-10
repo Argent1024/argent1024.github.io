@@ -101,7 +101,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "yang.qi.gr@dartmouth.edu"
+      url: "mailto:yang.qi.gr@dartmouth.edu"
 
     - label: "Website"
       icon: "fas fa-fw fa-link"
